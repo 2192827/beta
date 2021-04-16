@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "329905713283",
+    "project_id": "splashscreem-6be4e",
+    "storage_bucket": "splashscreem-6be4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329905713283:android:bf5752c1d3990d1d026bb6",
+        "android_client_info": {
+          "package_name": "com.cursoandroid.splashscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329905713283-estemv2ebpumo96qhf3h7gafhga3pvu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgUu_Gg5H8WhYmGcMR_yyjsQeReoHktDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329905713283-estemv2ebpumo96qhf3h7gafhga3pvu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:329905713283:android:28165e05cc3f5bc9026bb6",
+        "android_client_info": {
+          "package_name": "maikol1272_.maik.castro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "329905713283-estemv2ebpumo96qhf3h7gafhga3pvu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgUu_Gg5H8WhYmGcMR_yyjsQeReoHktDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "329905713283-estemv2ebpumo96qhf3h7gafhga3pvu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
