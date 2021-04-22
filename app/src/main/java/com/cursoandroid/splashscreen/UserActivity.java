@@ -118,7 +118,7 @@ public class UserActivity extends AppCompatActivity implements TextToSpeech.OnIn
 
     @Override
     public void onInit(int status) {
-
+//settext
     }
 }
 
