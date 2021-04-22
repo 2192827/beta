@@ -120,6 +120,7 @@ public class UserActivity extends AppCompatActivity implements TextToSpeech.OnIn
     public void onInit(int status) {
 //settext
         // outro comentário, escrito por Carlos Ferreira
+        //comentario, francisco canto
     }
 }
 
