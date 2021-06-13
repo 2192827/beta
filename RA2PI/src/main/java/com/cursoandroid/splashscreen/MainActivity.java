@@ -56,16 +56,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }else{
-                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+            Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 Pair[] pairs = new Pair[2];
                 pairs[0] = new Pair<View, String>(logoImageView, "logoImageTrans");
                 pairs[1] = new Pair<View, String>(tomasnecrisTextView, "textTrans");
 
                 if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
                     ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(MainActivity.this, pairs);
-                    startActivity(intent, options.toBundle());
+                startActivity(intent, options.toBundle());
                 }else{
-                    startActivity(intent);
+                  startActivity(intent);
                     finish();
                 }
             }
@@ -73,4 +73,14 @@ public class MainActivity extends AppCompatActivity {
         },4000);
 
     }
+
+
+
+
+
+
+
+
+
+
 }

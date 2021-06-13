@@ -7,6 +7,7 @@ import android.app.ActivityOptions;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.speech.RecognizerIntent;
 import android.util.Log;
 import android.util.Pair;
 import android.util.Patterns;
@@ -42,7 +43,7 @@ public class LoginActivity extends AppCompatActivity {
     MaterialButton inicioSesion;
     TextInputEditText emailEditText, passwordEditText;
     FirebaseAuth mAuth;
-
+    private static final int RECONOCEDOR_VOZ = 7;
     SignInButton signInButton;
     GoogleSignInClient mGoogleSignInClient;
     public static final int RC_SIGN_IN = 0;
@@ -151,6 +152,10 @@ public class LoginActivity extends AppCompatActivity {
                         if(task.isSuccessful()){
                             Intent intent = new Intent(LoginActivity.this, UserActivity.class);
                             startActivity(intent);
+
+
+
+
                             finish();
                         }else{
                             //No funciona el Toast

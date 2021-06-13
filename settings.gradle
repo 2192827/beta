@@ -1,2 +1,2 @@
-include ':app'
+include ':RA2PI'
 rootProject.name = "SplashScreen"

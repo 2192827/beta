@@ -12,7 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activa_reconocimientodevoz"></activity>
-        <activity android:name=".Arreglarmaquinaestragadanoarranca" />
         <activity android:name=".Q_R_CODE" />
         <activity android:name=".ForgotPasswordActivity" />
         <activity android:name=".UserActivity" />

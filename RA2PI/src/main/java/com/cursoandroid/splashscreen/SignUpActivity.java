@@ -107,7 +107,7 @@ public class SignUpActivity extends AppCompatActivity {
     }
 
     public void transitionBack(){
-        Intent intent = new Intent(SignUpActivity.this, LoginActivity.class);
+        //Intent intent = new Intent(SignUpActivity.this, LoginActivity.class);
 
         Pair[] pairs = new Pair[7];
         pairs[0] = new Pair<View, String>(signUpImageView, "logoImageTrans");
@@ -120,9 +120,9 @@ public class SignUpActivity extends AppCompatActivity {
 
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP){
             ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(SignUpActivity.this, pairs);
-            startActivity(intent, options.toBundle());
+           // startActivity(intent, options.toBundle());
         }else{
-            startActivity(intent);
+          //  startActivity(intent);
             finish();
         }
 

@@ -53,8 +53,8 @@ public class ForgotPasswordActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<Void> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(ForgotPasswordActivity.this, "Correo enviado", Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(ForgotPasswordActivity.this, LoginActivity.class);
-                            startActivity(intent);
+                   //         Intent intent = new Intent(ForgotPasswordActivity.this, LoginActivity.class);
+                    //        startActivity(intent);
                             finish();
                         }else{
                             Toast.makeText(ForgotPasswordActivity.this, "Correo inválido", Toast.LENGTH_SHORT).show();

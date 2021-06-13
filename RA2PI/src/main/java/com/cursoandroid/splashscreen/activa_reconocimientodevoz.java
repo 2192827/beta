@@ -85,15 +85,12 @@ public class activa_reconocimientodevoz extends AppCompatActivity implements Tex
 
     private ArrayList <Respuestas> proveerDatos () {
         ArrayList <Respuestas> respuestas = new ArrayList <>();
-        respuestas.add( new Respuestas( "analizar", " toc toc quien es ",new Intent(this,Q_R_CODE.class)));
-        respuestas.add( new Respuestas( "b", " toc toc quien es ",new Intent(this,Arreglarmaquinaestragadanoarranca.class)));
-        respuestas.add( new Respuestas( "usuario", " toc toc quien es ",new Intent(this,UserActivity.class)));
-        respuestas.add( new Respuestas( "iniciar", " toc toc quien es ",new Intent(this,LoginActivity.class)));
-        respuestas.add( new Respuestas( "registrar", " toc toc quien es ",new Intent(this,SignUpActivity.class)));
-             /*   respuestas.add( new Respuestas( "adios", "good luck" ) );
-        respuestas.add( new Respuestas( "como estas", "con ganas de ayudaret " ) );
-        respuestas.add( new Respuestas( "nombre", "hola me llamo magtronic 2.0" ) );
-        respuestas.add( new Respuestas( " hi", "estoyocupado buscamemas tarde " ) );*/
+        respuestas.add( new Respuestas( "analizar", "  ",new Intent(this,Q_R_CODE.class)));
+        respuestas.add( new Respuestas( "", " toc toc quien es ",new Intent(this,MainActivity.class)));
+        respuestas.add( new Respuestas( "usuario", "  ",new Intent(this,UserActivity.class)));
+//        respuestas.add( new Respuestas( "iniciar", " toc toc quien es ",new Intent(this,LoginActivity.class)));
+        respuestas.add( new Respuestas( "registrar", "  ",new Intent(this,SignUpActivity.class)));
+
         return respuestas;
     }
 

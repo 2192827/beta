@@ -7,56 +7,6 @@
     tools:context=".UserActivity">
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="305dp"
-        android:layout_height="372dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/_1b7422d2e3cfdd6e6e8e4c989542eeb" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Enter/Ativação de Micro"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="327dp" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Subir"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="225dp" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Anterior"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="356dp" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="103dp"
-        android:layout_height="58dp"
-        android:text="Seguinte/Leitura de QRCode"
-        tools:layout_editor_absoluteX="332dp"
-        tools:layout_editor_absoluteY="336dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Descher/Reparação da máquina"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="497dp" />
-
-    <ImageView
         android:id="@+id/imageView"
         android:layout_width="129dp"
         android:layout_height="124dp"
@@ -92,13 +42,11 @@
         app:layout_constraintStart_toStartOf="parent" />
 
 
-
-
     <TextView
         android:id="@+id/textView"
-        android:layout_width="409dp"
-        android:layout_height="53dp"
-       android:text="Ouvir"
+        android:layout_width="129dp"
+        android:layout_height="48dp"
+        android:text="Ouvir"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="45dp" />
 
