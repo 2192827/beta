@@ -157,7 +157,7 @@ public class UserActivity extends AppCompatActivity implements TextToSpeech.OnIn
                     Intent anterior = new Intent(this, Q_R_CODE.class);
                     startActivity(anterior);
                 }
-
+                return true;
             case KeyEvent.ACTION_UP:
                 if (action == KeyEvent.ACTION_DOWN) {
                     //TODO
@@ -172,14 +172,14 @@ public class UserActivity extends AppCompatActivity implements TextToSpeech.OnIn
 
 
                 }
-
+                return true;
             case KeyEvent.KEYCODE_DPAD_DOWN:
                 if (action == KeyEvent.ACTION_DOWN) {
                     //TODO
                     Intent anterior = new Intent(this, MainActivity.class);
                     startActivity(anterior);
                 }
-
+                return true;
   /*          case KeyEvent.KEYCODE_ENTER:
                 if (action == KeyEvent.ACTION_DOWN) {
                     //TODO
